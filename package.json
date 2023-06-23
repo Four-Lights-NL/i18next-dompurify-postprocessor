@@ -1,6 +1,6 @@
 {
   "name": "i18next-dompurify-postprocessor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "packageManager": "pnpm@8.0.0",
   "type": "module",
