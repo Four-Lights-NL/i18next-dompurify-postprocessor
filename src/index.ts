@@ -1,4 +1,4 @@
-import DOMPurify from 'dompurify'
+import { Config, sanitize } from 'isomorphic-dompurify'
 
 const plugin = {
     name: 'dompurify',
@@ -9,12 +9,12 @@ const plugin = {
         ALLOWED_ATTR: ['style']
     },
 
-    setOptions(options: DOMPurify.Config) {
+    setOptions(options: Config) {
         this.options = {...this.options, ...options};
     },
 
     process (value: string) {
-        return DOMPurify.sanitize(value, this.options)
+        return sanitize(value, this.options)
     }
 }
 
