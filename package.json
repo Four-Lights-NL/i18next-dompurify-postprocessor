@@ -69,6 +69,6 @@
     "isomorphic-dompurify": "^1.8.0"
   },
   "peerDependencies": {
-    "i18next": ">=8.4.0"
+    "i18next": ">=20.4.0"
   }
 }
