@@ -1,8 +1,9 @@
+import type { ModuleType } from 'i18next'
 import { Config, sanitize } from 'isomorphic-dompurify'
 
 const plugin = {
   name: 'dompurify',
-  type: 'postProcessor',
+  type: 'postProcessor' as ModuleType,
 
   options: {
     ALLOWED_TAGS: ['a', 'b', 'br', 'code', 'em', 'i', 'li', 'ol', 'p', 'strong', 'ul'],
