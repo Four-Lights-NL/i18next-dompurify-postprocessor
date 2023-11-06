@@ -1,5 +1,12 @@
 
 
+## [1.0.3](https://github.com/Four-Lights-NL/i18next-dompurify-postprocessor/compare/v1.0.2...v1.0.3) (2023-11-06)
+
+
+### Bug Fixes
+
+* **types:** specify module type as `ModuleType` from `i18next` ([f82f679](https://github.com/Four-Lights-NL/i18next-dompurify-postprocessor/commit/f82f679c3188b56d75db5a79de9eece7a3f2ac9e))
+
 ## [1.0.2](https://github.com/Four-Lights-NL/i18next-dompurify-postprocessor/compare/v1.0.1...v1.0.2) (2023-09-18)
 
 
